@@ -1,2 +1,9 @@
 # I18N
-I18N Demo
+多语言Demo
+
+Referense：
+
+[https://github.com/Fitem/I18NDemo](https://github.com/Fitem/I18NDemo)
+
+[https://github.com/gunhansancar/ChangeLanguageExample](https://github.com/gunhansancar/ChangeLanguageExample)
+

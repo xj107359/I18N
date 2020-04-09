@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/pop_bg"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/pop_title_bg"
+            android:gravity="center"
+            android:text="@string/please_select_app_language"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_separate_1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#5b5353"
+            android:contentDescription="@string/defualt_language"/>
+
+        <TextView
+            android:id="@+id/tv_default_language"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/defualt_language"
+            android:textColor="#f13b3b"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_separate_2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#5b5353"
+            android:contentDescription="@string/english"/>
+
+        <TextView
+            android:id="@+id/tv_english"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/english"
+            android:textColor="#f13b3b"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_separate_3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#5b5353"
+            android:contentDescription="@string/chinese"/>
+
+        <TextView
+            android:id="@+id/tv_chinese"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/chinese"
+            android:textColor="#f13b3b"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_separate_4"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#5b5353"
+            android:contentDescription="@string/thai"/>
+
+        <TextView
+            android:id="@+id/tv_thai"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="@string/thai"
+            android:textColor="#f13b3b"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
